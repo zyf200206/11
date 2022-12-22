@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div id="start">
-			<input id="SUN" type="text">
+			<input id="ABC" type="text">
 			<button id="copy" onclick="copy()">复制</button>
 			<input id="a" type="text"><br />
 			<span id="b" style="color:blue;"></span>
@@ -14,8 +14,8 @@
 	</body>
 	<script>
 		function copy() {
-			var sun = document.getElementById("SUN").value;
-			document.getElementById("a").value = sun;
+			var abc = document.getElementById("ABC").value;
+			document.getElementById("a").value = abc;
 			document.getElementById("b").innerHTML = "复制成功";
 		}
 	</script>
